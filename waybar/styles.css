@@ -12,6 +12,7 @@ window#waybar {
   /* border: 0px solid #A1BDCE; */
   border: 3px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
+  padding: 0 10px;
 }
 
 tooltip {
@@ -29,9 +30,6 @@ tooltip {
   text-shadow: none;
   border-radius: 9px;
   transition: 0.2s ease;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 1px;
 }
 
 #workspaces button {
@@ -62,7 +60,7 @@ tooltip {
   background: rgba(23, 23, 23, 0);
   opacity: 1;
   margin: 3px 0px 0px 0px;
-  padding-right: 10px;
+  padding: 0, 10px;
   border: none;
 }
 #cpu {
