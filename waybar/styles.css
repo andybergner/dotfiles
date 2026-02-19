@@ -63,7 +63,7 @@ tooltip {
 
 #workspaces button:hover {
   box-shadow: none; /* Remove predefined box-shadow */
-  border: none; /* Remove predefined border */
+  border-color: transparent; /* Remove predefined border */
   text-shadow: none; /* Remove predefined text-shadow */
   background: none; /* Remove predefined background color (white) */
   transition: none; /* Disable predefined animations */
