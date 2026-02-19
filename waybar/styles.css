@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-  background: #0f0f17;
+  background: rgb(9, 9, 11);
   /*  border-radius: 15px; */
   /*  border: 2px solid #124323; */
   /* border: 0px solid #A1BDCE; */
@@ -26,20 +26,19 @@ window#waybar {
 }
 
 tooltip {
-  background: #171717;
-  color: #a1bdce;
+  background: rgb(9, 9, 11);
+  color: rgb(250, 250, 250);
   font-size: 13px;
   border-radius: 7px;
-  border: 2px solid #101a24;
+  border: 2px solid rgb(39, 39, 42);
 }
 
 #window {
-  color: #a1bdce;
+  color: rgb(250, 250, 250);
 }
 
 #workspaces {
-  background: rgba(23, 23, 23, 0);
-  color: #888789;
+  color: rgb(250, 250, 250);
   box-shadow: none;
   text-shadow: none;
   border-radius: 9px;
@@ -47,8 +46,7 @@ tooltip {
 }
 
 #workspaces button {
-  background: rgba(23, 23, 23, 0);
-  color: #a1bdce;
+  color: rgb(250, 250, 250);
   box-shadow: none;
   text-shadow: none;
   border-radius: 9px;
@@ -60,24 +58,22 @@ tooltip {
 
 #workspaces button.active {
   /* background-image: url("/home/anik/Documents/bar1.png");*/
-  color: #72d792;
+  color: rgb(20, 71, 230);
   transition: all 0.3s ease;
   /*  transition: all 0.4s cubic-bezier(.55,0.68,.48,1.682); */
 }
 
 #clock {
-  color: #a1bdce;
+  color: rgb(250, 250, 250);
   font-size: 15px;
   font-weight: 900;
-  background: rgba(23, 23, 23, 0);
-  opacity: 1;
   margin: 3px 0px 0px 0px;
   padding: 0 10px;
   border: none;
 }
 
 #network {
-  color: #a1bdce;
+  color: rgb(250, 250, 250);
   font-weight: normal;
   font-size: 15px;
   padding: 0 7px;
@@ -85,24 +81,22 @@ tooltip {
 #battery {
   font-weight: normal;
   font-size: 15px;
-  color: #a6d189;
-  background: rgba(23, 23, 23, 0);
+  color: rgb(100, 255, 103);
   opacity: 1;
   padding: 0 7px;
 }
 #battery.charging,
 #battery.plugged {
-  color: #e8edf0;
+  color: rgb(250, 250, 250);
 }
 #battery.critical:not(.charging) {
-  color: red;
+  color: rgb(255, 100, 103);
 }
 
 #pulseaudio {
   font-weight: normal;
   font-size: 18px;
-  color: #6f8fdb;
-  background: rgba(22, 19, 32, 0);
+  color: rgb(20, 71, 230);
   opacity: 1;
   margin: 0px 0px 0px 0px;
   padding-left: 3px;
