@@ -12,7 +12,19 @@ window#waybar {
   /* border: 0px solid #A1BDCE; */
   border: 3px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  padding: 0 10px;
+}
+
+.modules-left {
+  padding: 7px;
+  margin: 10 0 5 10;
+}
+.modules-center {
+  padding: 7px;
+  margin: 10 0 5 0;
+}
+.modules-right {
+  padding: 7px;
+  margin: 10 10 5 0;
 }
 
 tooltip {
