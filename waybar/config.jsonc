@@ -18,30 +18,10 @@
   // positions generated based on config.ctl //
 
   "modules-left": ["custom/smallspacer", "hyprland/workspaces"],
-  "modules-center": ["custom/padd", "hyprland/window", "custom/padd"],
-  "modules-right": ["custom/padd", "network", "memory", "cpu", "clock", "custom/padd"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["network", "battery", "clock"],
 
   // sourced from modules based on config.ctl //
-
-  "memory": {
-    "interval": 1,
-    "rotate": 270,
-    "format": "{icon}",
-    "format-icons": ["󰝦", "󰪞", "󰪟", "󰪠", "󰪡", "󰪢", "󰪣", "󰪤", "󰪥"],
-    "max-length": 10,
-  },
-  "cpu": {
-    "interval": 1,
-    "format": "{icon}",
-    "rotate": 270,
-    "format-icons": ["󰝦", "󰪞", "󰪟", "󰪠", "󰪡", "󰪢", "󰪣", "󰪤", "󰪥"],
-  },
-
-  "tray": {
-    "icon-size": 16,
-    "rotate": 0,
-    "spacing": 3,
-  },
 
   "hyprland/window": {
     //"format": "{}"   // <--- these is the default value

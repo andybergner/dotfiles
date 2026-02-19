@@ -58,19 +58,7 @@ tooltip {
 #workspaces button:hover {
   background: none;
   color: #72d792;
-  animation: ws_hover 20s ease-in-out 1;
-  transition: all 0.5s cubic-bezier(0.55, -0.68, 0.48, 1.682);
-}
-
-#tray menu * {
-  min-height: 16px;
-  font-weight: bold;
-  font-size: 13px;
-  color: #9488e3;
-}
-
-#tray menu separator {
-  min-height: 10px;
+  animation: #72d792 20s ease-in-out 1;
 }
 
 #bluetooth {
@@ -95,7 +83,6 @@ tooltip {
   color: #a1bdce;
   font-size: 15px;
   font-weight: 900;
-  font-family: "JetBrains Mono Nerd Font";
   background: rgba(23, 23, 23, 0);
   opacity: 1;
   margin: 3px 0px 0px 0px;
@@ -130,11 +117,7 @@ tooltip {
   padding-right: 0px;
   padding-left: 4px;
 }
-#tray,
-#window {
-  color: #a1bdce;
-  font-family: "Martian Mono";
-}
+
 #battery.charging,
 #battery.plugged {
   color: #e8edf0;
