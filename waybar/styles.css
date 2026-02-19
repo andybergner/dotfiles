@@ -67,6 +67,7 @@ tooltip {
   text-shadow: none; /* Remove predefined text-shadow */
   background: none; /* Remove predefined background color (white) */
   transition: none; /* Disable predefined animations */
+  background-color: rgb(250, 250, 250);
   color: rgb(250, 250, 250);
 }
 
