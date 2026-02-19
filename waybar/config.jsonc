@@ -17,9 +17,9 @@
 
   // positions generated based on config.ctl //
 
-  "modules-left": ["custom/smallspacer", "hyprland/workspaces"],
+  "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "cpu", "memory", "battery", "custom/smallspacer", "clock"],
+  "modules-right": ["clock"],
 
   // sourced from modules based on config.ctl //
 
@@ -97,17 +97,5 @@
     "tooltip-format-disconnected": "Disconnected",
     "on-click": "/usr/local/bin/ags -t ControlPanel",
     "interval": 2,
-  },
-
-  // modules for padding //
-
-  "custom/smallspacer": {
-    "format": " ",
-  },
-
-  "custom/padd": {
-    "format": "  ",
-    "interval": "once",
-    "tooltip": false,
   },
 }

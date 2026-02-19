@@ -73,18 +73,7 @@ tooltip {
   padding: 0 10px;
   border: none;
 }
-#cpu {
-  font-weight: normal;
-  font-size: 15px;
-  color: #915caf;
-  padding: 0 7px;
-}
-#memory {
-  font-weight: normal;
-  font-size: 15px;
-  color: #e4c9af;
-  padding: 0 7px;
-}
+
 #network {
   color: #a1bdce;
   font-weight: normal;
@@ -116,11 +105,4 @@ tooltip {
   margin: 0px 0px 0px 0px;
   padding-left: 3px;
   padding-right: 3px;
-}
-
-#custom-spacer {
-  opacity: 0;
-}
-#custom-smallspacer {
-  opacity: 0;
 }
