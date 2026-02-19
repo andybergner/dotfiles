@@ -41,7 +41,6 @@ tooltip {
   color: rgb(250, 250, 250);
   box-shadow: none;
   text-shadow: none;
-  border-radius: 9px;
   transition: 0.2s ease;
 }
 
@@ -49,6 +48,7 @@ tooltip {
   color: rgb(250, 250, 250);
   box-shadow: none;
   text-shadow: none;
+  background-color: red;
   border-radius: 9px;
   transition: 0.2s ease;
   padding-left: 4px;
