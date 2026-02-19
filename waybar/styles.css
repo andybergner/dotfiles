@@ -3,37 +3,30 @@
   /*font-family: "JetBrainsMono Nerd Font";*/
   font-weight: bold;
   font-size: 15px;
+  border-radius: 12px;
 }
 
 window#waybar {
-  background: transparent;
+  background: rgb(9, 9, 11);
+  border-radius: 12px;
   /*  border: 2px solid #124323; */
   /* border: 0px solid #A1BDCE; */
 }
 
 .modules-left {
-  padding: 5px 10px;
   margin: 5px 0 5px 5px;
-  background: rgb(9, 9, 11);
-  background: rgb(9, 9, 11);
   border-radius: 12px;
   border-color: rgba(255, 255, 255, 0.1);
   border-width: 1px;
 }
 .modules-center {
-  padding: 5px 10px;
   margin: 5px 0 5px 0;
-  background: rgb(9, 9, 11);
-  background: rgb(9, 9, 11);
   border-radius: 12px;
   border-color: rgba(255, 255, 255, 0.1);
   border-width: 1px;
 }
 .modules-right {
-  padding: 5px 10px;
-
   margin: 5px 5px 5px 0;
-  background: rgb(9, 9, 11);
   border-radius: 12px;
   border-color: rgba(255, 255, 255, 0.1);
   border-width: 1px;
