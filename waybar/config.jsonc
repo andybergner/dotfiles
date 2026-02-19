@@ -19,7 +19,7 @@
 
   "modules-left": ["custom/smallspacer", "hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "battery", "clock"],
+  "modules-right": ["network", "custom/smallspacer", "battery", "custom/smallspacer", "clock"],
 
   // sourced from modules based on config.ctl //
 
