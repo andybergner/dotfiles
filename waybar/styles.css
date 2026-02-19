@@ -49,6 +49,7 @@ tooltip {
 
 #window {
   color: rgb(250, 250, 250);
+  padding: 0 10px;
 }
 
 #workspaces {
