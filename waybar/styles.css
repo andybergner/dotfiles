@@ -3,12 +3,11 @@
   /*font-family: "JetBrainsMono Nerd Font";*/
   font-weight: bold;
   font-size: 15px;
-  border-radius: 12px;
 }
 
 window#waybar {
   background: rgb(9, 9, 11);
-  border-radius: 15px;
+  border-radius: 12px;
   /*  border: 2px solid #124323; */
   /* border: 0px solid #A1BDCE; */
 }
