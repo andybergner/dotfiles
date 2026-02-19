@@ -17,7 +17,7 @@
 
   // positions generated based on config.ctl //
 
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["custom/smallspacer", "hyprland/workspaces"],
   "modules-center": ["custom/padd", "hyprland/window", "custom/padd"],
   "modules-right": ["custom/padd", "network", "memory", "cpu", "clock", "custom/padd"],
 
@@ -120,6 +120,10 @@
   },
 
   // modules for padding //
+
+  "custom/smallspacer": {
+    "format": " ",
+  },
 
   "custom/padd": {
     "format": "  ",

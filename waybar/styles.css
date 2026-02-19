@@ -143,3 +143,10 @@ tooltip {
 #battery.critical:not(.charging) {
   color: red;
 }
+
+#custom-spacer {
+  opacity: 0;
+}
+#custom-smallspacer {
+  opacity: 0;
+}
