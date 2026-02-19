@@ -62,12 +62,14 @@ tooltip {
 }
 
 #workspaces button:hover {
-  color: rgb(250, 250, 250); /* <-- Textfarbe beim Hover */
-  background-color: rgba(255, 255, 255, 0.08); /* optional hover bg */
   box-shadow: none; /* Remove predefined box-shadow */
+  border-color: transparent; /* Remove predefined border */
   text-shadow: none; /* Remove predefined text-shadow */
   background: none; /* Remove predefined background color (white) */
-  transition: 0.2s ease; /* Disable predefined animations */
+  transition: none; /* Disable predefined animations */
+
+  color: rgb(250, 250, 250); /* <-- Textfarbe beim Hover */
+  background-color: rgba(255, 255, 255, 0.08); /* optional hover bg */
 }
 
 #clock {
