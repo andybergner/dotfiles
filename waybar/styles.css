@@ -75,25 +75,25 @@ tooltip {
 }
 #cpu {
   font-weight: normal;
-  font-size: 22px;
+  font-size: 15px;
   color: #915caf;
   padding: 0 4px;
 }
 #memory {
   font-weight: normal;
-  font-size: 22px;
+  font-size: 15px;
   color: #e4c9af;
   padding: 0 4px;
 }
 #network {
   color: #a1bdce;
   font-weight: normal;
-  font-size: 19px;
+  font-size: 15px;
   padding: 0 4px;
 }
 #battery {
   font-weight: normal;
-  font-size: 19px;
+  font-size: 15px;
   color: #a6d189;
   background: rgba(23, 23, 23, 0);
   opacity: 1;
